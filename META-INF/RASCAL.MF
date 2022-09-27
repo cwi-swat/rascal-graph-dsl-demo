@@ -1,0 +1,3 @@
+Project-Name: langdev-demo
+Require-Libraries: |lib://rascal-lsp|,|lib://salix|
+Sources: src
