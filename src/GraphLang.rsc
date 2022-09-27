@@ -86,7 +86,7 @@ rel[loc,Command] createLenses(start[Graph] g)
   ;
 
 void main() {
-    pcfg = getProjectPathConfig(|project://langdev-demo|);
+    pcfg = getProjectPathConfig(|project://rascal-graph-dsl-demo|);
     pcfg.srcs += [|project://salix/src|];
     
     lang = language(pcfg, "GraphLanguage", "graph", "GraphLang", "contributions");
